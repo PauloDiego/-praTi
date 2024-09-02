@@ -5,7 +5,7 @@ const prompt = require('prompt-sync')();
 
 // if (number > 0) {
 //     console.log("O número digitado é positivo."); }
-    
+
 // if (number < 0) {
 //     console.log("O número digitado é negativo."); }
 
@@ -39,20 +39,22 @@ const prompt = require('prompt-sync')();
 // if ((grade1 > 10) || (grade2 > 10) ||  (grade3 > 10)) {
 //     console.log("Não existe nota acima de 10. Favor digitar uma nota válida"); }
 
-// if ((average<=2)) {
-//     console.log("A sua nota final é F!. ");
-// } else if((average<=3.9) && (average>=2.1)){
+// if ((average <= 2)) {
+//         console.log("A sua nota final é F!. ");
+// } else if ((average <= 3.9) && (average >= 2.1)) {
 //         console.log("A sua nota final é E!");
-//     } else if((average<=5.9) && (average>=4)) {
-//             console.log("A sua nota final é D!");
-//         }else if((average<=7.9) && (average>=6)) {
-//                 console.log("A sua nota final é C!");
-//             }else if((average<=9.9) && (average>=8)) {
-//                     console.log("A sua nota final é B!");
-//                 } else if(average == 10){
-//                         console.log("A sua nota final foi A!!!");}
-//                     else{
-//                             console.log("A nota não pode ser texto. Favor digitar uma nota válida."); }
+// } else if ((average <= 5.9) && (average >= 4)) {
+//         console.log("A sua nota final é D!");
+// } else if ((average <= 7.9) && (average >= 6)) {
+//         console.log("A sua nota final é C!");
+// } else if ((average <= 9.9) && (average >= 8)) {
+//         console.log("A sua nota final é B!");
+// } else if (average == 10) {
+//         console.log("A sua nota final foi A!!!");
+// }
+// else {
+//         console.log("A nota não pode ser texto. Favor digitar uma nota válida.");
+// }
 
 // //4 - Verifique se um número é par ou ímpar
 // let number = Number(prompt("Digite um número: "));
@@ -64,26 +66,26 @@ const prompt = require('prompt-sync')();
 // }
 
 //5 - Verifique a categoria de um nadador
-        // Infantil A: 5 - 7 anos
-        // Infantil B: 8 - 10 anos
-        // Juvenil A: 11 - 13 anos
-        // Juvenil B: 14 - 17 anos
-        // Adulto: 18 anos ou mais
+// Infantil A: 5 - 7 anos
+// Infantil B: 8 - 10 anos
+// Juvenil A: 11 - 13 anos
+// Juvenil B: 14 - 17 anos
+// Adulto: 18 anos ou mais
 // let age =Number(prompt("Digite a idade do Nadador: "));
 
-//     if (age < 5) {
-//     console.log("A criança ainda não está apta ao nado.");
-//     } else if ((5 <= age) && (age <= 7)) {
+// if (age < 5) {
+//         console.log("A criança ainda não está apta ao nado.");
+// } else if ((5 <= age) && (age <= 7)) {
 //         console.log("A categoria do Nadador é INFANTIL A.");
-//         } else if ((8 <= age) && (age <= 10)) {
-//             console.log("A categoria do Nadador é INFANTIL B.");
-//             } else if ((11 <= age) && (age <= 13)) {
-//                 console.log("A categoria do Nadador é JUVENIL A.");
-//                 } else if ((14 <= age) && (age <= 17)) {
-//                     console.log("A categoria do Nadador é JUVENIL B.");
-//                     } else {
-//                         console.log("A categoria do Nadador é ADULTO.");
-//                         }
+// } else if ((8 <= age) && (age <= 10)) {
+//         console.log("A categoria do Nadador é INFANTIL B.");
+// } else if ((11 <= age) && (age <= 13)) {
+//         console.log("A categoria do Nadador é JUVENIL A.");
+// } else if ((14 <= age) && (age <= 17)) {
+//         console.log("A categoria do Nadador é JUVENIL B.");
+// } else {
+//         console.log("A categoria do Nadador é ADULTO.");
+// }
 
 // //6 - Verifique o dia da semana
 // let day = Number(prompt("Diga o dia da semana em valor de 1 a 7: "));
@@ -182,7 +184,7 @@ const prompt = require('prompt-sync')();
 
 // if (imc < 18.5) {
 //     console.log("O seu IMC é: ",imc, ". Você está em ABAIXO DO PESO.");
-// } else if((18.5<= imc) && (imc<=24.9)){       
+// } else if((18.5<= imc) && (imc<=24.9)){
 //         console.log("O seu IMC é: ",imc, ". Você está em PESO NORMAL.");
 //     } else if ((25<= imc) && (imc<=29.9)) {
 //             console.log("O seu IMC é: ",imc, ". Você está em SOBREPESO.");
