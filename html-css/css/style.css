@@ -1,0 +1,22 @@
+body {
+    background-color: grey;
+}
+
+.multiplos {
+    color: blue;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.multiplos:hover{
+    color: white;
+    background-color: rgb(150, 150, 150);
+}
+
+#unico {
+    color: green;
+    font-style: italic;   
+}
