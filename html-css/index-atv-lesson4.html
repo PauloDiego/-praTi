@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Atividade da aula 04</title>
+    <link rel="stylesheet" href="../html-css/css/style-atvd04.css">
+</head>
+
+<body>
+    <!-- Formulário de Contato com Validação
+
+    Objetivo: Criar um formulário de contato, com validação.
+    Instruções:
+    Crie um formulário com os seguintes campos:
+    Nome (campo obrigatório)
+    E-mail (campo obrigatório e deve validar formato de e-mail)
+    Mensagem (campo obrigatório)
+    Telefone (campo opcional)
+    Assunto (campo de seleção com 3 opções: Dúvida, Suporte, Feedback)
+    Checkbox para aceitar os Termos de Uso (obrigatório)
+    Inclua um botão de envio que só deve ser habilitado se todos os campos obrigatórios forem preenchidos corretamente.
+    Adicione um placeholder para cada campo.
+
+    Utilize HTML5 para adicionar validação dos campos obrigatórios e padrões de validação (como o campo de e-mail e
+    número de telefone). -->
+    <main>
+        <section>
+            <h2>Formulário</h2>
+            <form>
+                <label for="nome">Nome: *</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required="required">
+        
+                <label for="email">E-mail: *</label>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail" required="required">
+        
+                <label for="mensagem">Mensagem: *</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" rows="5" required="required"></textarea>
+        
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone (opcional)" pattern="\d{10,15}">
+        
+                <label for="assunto">Assunto: *</label>
+                <select id="assunto" name="assunto" required="required">
+                    <option value="" disabled selected>Selecione um assunto</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="suporte">Suporte</option>
+                    <option value="feedback">Feedback</option>
+                </select>  
+                <section class="checkbox">
+                    <label for="termos" style="padding-left: 150px;">Aceito os Termos de Uso *</label><br><br>
+
+                    <input type="checkbox" id="termos" required="required">
+                </section>
+        
+                <button type="submit" disabled>Enviar</button>
+            </form>
+        </section>
+        
+    </main>
+</body>
+
+</html>
