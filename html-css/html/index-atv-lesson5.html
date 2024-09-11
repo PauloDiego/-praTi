@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../css/style-atv-lesson4.css">
+</head>
+<body>
+    <main>
+        <section>
+            <form action="">
+                <h2>Formulário de Cadastro</h2>
+
+                <label for="fullname">Nome completo: </label><br>
+                <input type="text" name="fullname" id="fullname" placeholder="Nome completo"><br><br>
+
+                <label for="email">Email: </label><br>
+                <input type="text" name="email" id="email" placeholder="email@email.com"><br><br>
+
+                <label for="pw">Senha: </label><br>
+                <input type="password" name="pw" id="pw" placeholder="Crie uma senha"><br><br>
+
+                <label for="país">País</label><br>
+                <select name="país" id="país">
+                    <option value="" disabled selected>Selecione um país</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="uruguai">Uruguai</option>
+                    <option value="nova-zelandia">Nova Zelândia</option>
+                </select><br><br>
+                
+                <label for="gender">Gênero</label><br> 
+                <input type="radio" name="gender" id="masc">MASCULINO
+                <input type="radio" name="gender" id="fem">FEMININO
+                <input type="radio" name="gender" id="others">OUTRO <br><br><br>
+                
+                <fieldset>
+                    <legend>Termos e Serviços</legend>
+                    <label for="newsletter">Aceitar termos e assinar a NewsLetter</label>
+                    <input type="checkbox" name="newslatter" id="newsletter">
+                </fieldset><br><br>
+                
+                <button type="submit">Criar cadastro</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

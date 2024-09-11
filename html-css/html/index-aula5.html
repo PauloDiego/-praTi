@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de eventos</title>
+    <link rel="stylesheet" href="../css/style-aula5.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <form>
+                <h2>Cadastro de eventos</h2>
+
+                <label for="nome">Nome completo: </label>
+                <input type="text" name="nome" id="nome" placeholder="Nome completo"><br>
+
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email" placeholder="email@servidor.com"><br>
+
+                <label for="pw">Senha: </label>
+                <input type="password" name="pw" id="pw" placeholder="Sua senha"><br>
+                <label for="pw-confirmed">Confirme sua senha: </label>
+                <input type="password" name="pw-confirmed" id="pw-confirmerd" placeholder="Confirme sua senha"><br>
+
+                <label for="genero">Gênero</label>
+                <select name="genero" id="genero">
+                    <option value="masculino">MASCULINO</option>
+                    <option value="feminino">FEMININO</option>
+                    <option value="outro">OUTRO</option>
+                </select><br>
+
+                <label for="data-nascimento">Data de nascimento: </label>
+                <input type="date" name="data-nascimento" id="data-nascimento"><br>
+
+                <label for="país">País</label>
+                <select name="país" id="país">
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="uruguai">Uruguai</option>
+                </select><br>
+
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="ceara">Ceará</option>
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="rio-de-janeiro">Rio de Janeiro</option>
+                </select><br>
+
+                <fieldset>
+                    <legend>Preferências de comunicação</legend>
+                    <input type="checkbox" name="newsletter-email" id="newsletter-email">
+                    <label class="inline-label" for="newsletter-email">Receber atualizações por email</label><br>
+
+                    <input type="checkbox" name="newsletter-sms" id="newsletter-sms">
+                    <label class="inline-label" for="newsletter-sms">Receber atualizações por SMS</label>
+                </fieldset>
+
+                <label for="foto-perfil">Foto de perfil</label>
+                <input type="file" name="foto-perfil" id="foto-perfil"><br><br>
+
+                <button type="submit">ENVIAR DADOS</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
